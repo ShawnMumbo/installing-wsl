@@ -135,3 +135,21 @@ And search the specified command for explanation.
 
  
         37.elixir -v
+
+
+
+# FAQ's
+
+Question - Do you need to uninstall Elixir on Windows side if I Install WSL?
+Answer - No, They can work Independently.
+
+Question - What is the use of Installing the Python and Java Libraries?
+Answer - Python- Python is installed as a dependency to elixir to overcome Elixir's limitations when 	dealing with big mathematical problems. - for example when it comes to longer calculations,including matrixes or some kind of optimization. It is surprising that in Elixir, according to José 	Valim’s post, the problem is not the mathematical processing, but rather the lack of support for large, mutable structures. Due to the immutable nature of data in Elixir, you really need a lot of copying of immutable structures to perform a simple matrix operation.
+Java - This helps Elixir run Java file and projects and acts as a dependency.
+
+Question - Where do I download my VS-Code and other apps and/or software.
+Answer - Depending on the App or software versions needed and support available, you could use either/or.
+Applications like pgAdmin, VS - Code and  Xlaunch can access file systems on both WSL and ubuntu, so for ease-of-use, it is recommended to just use the Windows installation. 
+Application managers like asdf need to be installed in Linux, databases like PostgreSQL depends on the file location of your project, make sure they are in similar environments as the project. 
+
+
