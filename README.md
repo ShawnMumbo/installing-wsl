@@ -36,3 +36,9 @@ There is two ways to use WLS in VS-Code;
       - Then Search for ElixirLs Plugin and click on "Install in WSL"
       - Restart your Computer and VS-Code and run a mix project or Open Terminal from VS-Code and try a few elixir commands.
       - Your GitHub should be picked up from Windows auth side.
+
+## Windows Option
+
+The latest version as of Erlang and Elixir as of 26/09/2023 is [Erlang/OTP 26.0.2](https://github.com/erlang/otp/releases/download/OTP-26.0.2/otp_win64_26.0.2.exe) and Elixir is [Elixir 1.15.4](https://github.com/elixir-lang/elixir/releases/download/v1.15.4/elixir-otp-26.exe) respectively. 
+When using the Visual Studio Code plugin for Elixir called [ElixirLS](https://elixir-lsp.github.io/elixir-ls/), support is Limited.
+See the table below for support.  Read more about ElixirLS Github Repo [here](https://github.com/elixir-lsp/elixir-ls).
