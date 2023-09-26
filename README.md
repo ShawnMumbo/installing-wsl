@@ -1,4 +1,4 @@
-# WSL INSTALLATION AND CONFIGURAION WITH ELIXIR ERLANG
+# WSL INSTALLATION AND CONFIGURATION WITH ELIXIR ERLANG
 ### Introduction
 
 This blog is to aid in getting the VS code debugger with the following features:
